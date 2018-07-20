@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    background-color: #EDF2F4;
+}
+
+.top {
+    height: 400px;
+    width: 100%;
+}
+
+.texto {
+    padding: 10px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+.mText {
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+.fotos {
+    display: flex;
+    align-content: center;
+    margin-left: 481px;
+}
+
+.pics {
+    border-radius: 100%;
+    border: #000 solid 3px;
+    height: 100px;
+    width: 100px;
+    margin: 0 15px 0 15px;
+}
+
+.projeto {
+    font-family: 'Cabin Sketch', cursive;
+}
+
+#cursos {
+    font-family: 'Cabin Sketch', cursive;
+}
+
+#esportes {
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.icones {
+    position: absolute;
+    top: 300px;
+    right: 75px;
+}
+
+.img {
+    height: 80px;
+}
+
+.rugby{
+    height: 150px;
+}
+
+.tiago{
+    height:80;
+    widows: 55px;
+}
+
+.ongs {
+    height: 325px;
+    width: 350px;
+    background-color: rgba(141, 153, 174, 0.281);
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+h2 {
+    position: absolute;
+    left: 477px;
+    top: 210px;
+}
+
+footer {
+    height: 270px;
+    background-color: #8D99AE;
+}
+
+.rodape {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.titulo {
+    margin-bottom: 10px;
+    font-size: 55px;
+    /* color: white; */
+    margin-left: 145px;
+    margin-top: 153px;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.tag {
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.head {
+    display: flex;
+}
+
+a {
+    font-size: 20px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.logo{ 
+    height: 250px;
+    margin-top: 100px;
+    margin-left: 148px;
+}
+
+.janela {
+    display: flex;
+}
+
+.infos {
+    font-size: 20px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+/* button {
+    position: absolute;
+    bottom: 5px;
+} */
+
+#foto {
+    height: 250px;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
